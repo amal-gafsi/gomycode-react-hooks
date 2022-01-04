@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./App.css";
-import MovieList from "./components/MovieList";
 import { moviesData } from "./MoviesData";
 import Filter from "./components/Filter";
 import Add from "./components/Add";
+// import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
+import MovieDetails from "../src/components/MovieDetails";
 
 function App() {
   const [movies, setMovies] = useState(moviesData);
@@ -13,9 +15,18 @@ function App() {
   };
 
   return (
-    <div style={{ backgroundColor: "black" }} className="App">
-      <Add addNewMovie={addNewMovie} />
-      <Filter movies={movies} />
+    <div className="App">
+      <Switch>
+        <Route exact path="/">
+          <Add addNewMovie={addNewMovie} />
+          <Filter movies={movies} />
+        </Route>
+        <Route
+          exact
+          path="/movies/:name"
+          render={(props) => <MovieDetails {...props} movies={movies} />}
+        />
+      </Switch>
     </div>
   );
 }

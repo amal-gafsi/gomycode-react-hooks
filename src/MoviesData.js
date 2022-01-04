@@ -6,6 +6,7 @@ export const moviesData = [
     posterURL:
       "https://resizing.flixster.com/MBCA6zXGKH4JSS7LGASpwSQuEW0=/206x305/v2/https://flxt.tmsimg.com/assets/p10182728_b_v13_az.jpg",
     rating: 4,
+    trailerURL: "https://www.youtube.com/watch?v=oVzVdvGIC7U",
   },
 
   {
@@ -15,6 +16,7 @@ export const moviesData = [
     posterURL:
       "https://media.senscritique.com/media/000011488535/source_big/Suits_Avocats_sur_mesure.jpg",
     rating: 3,
+    trailerURL: "https://www.youtube.com/watch?v=85z53bAebsI",
   },
 
   {
@@ -24,6 +26,7 @@ export const moviesData = [
     posterURL:
       "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/e5fdc3eb60c1e1497af8512c7828cd694dc0cbc42f95213550209efc0a012ab4._RI_V_TTW_.jpg",
     rating: 3,
+    trailerURL: "https://www.youtube.com/watch?v=ZU3Xban0Y6A",
   },
 
   {
@@ -33,6 +36,7 @@ export const moviesData = [
     posterURL:
       "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
     rating: 2,
+    trailerURL: "https://www.youtube.com/watch?v=hDNNmeeJs1Q",
   },
 
   {
@@ -42,5 +46,6 @@ export const moviesData = [
     posterURL:
       "https://m.media-amazon.com/images/M/MV5BNzVkYWY4NzYtMWFlZi00YzkwLThhZDItZjcxYTU4ZTMzMDZmXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_.jpg",
     rating: 2,
+    trailerURL: "https://www.youtube.com/watch?v=sEOuJ4z5aTc",
   },
 ];

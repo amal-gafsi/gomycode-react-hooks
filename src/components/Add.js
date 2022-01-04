@@ -1,6 +1,7 @@
 import React from "react";
 import MyModal from "./MyModal";
 import { Button } from "react-bootstrap";
+
 export default function Add({ addNewMovie }) {
   const [modalShow, setModalShow] = React.useState(false);
 
